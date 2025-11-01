@@ -71,7 +71,7 @@ A comprehensive bookmark manager built with Astro, React, and Tailwind CSS. Feat
    
    Edit `.env` with your configuration:
    ```env
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/bookmarks
+   MONGODB_URI=mongodb+srv://[USERNAME]:[PASSWORD]@[CLUSTER].mongodb.net/[DATABASE]
    JWT_SECRET=your-super-secret-jwt-key-here
    APP_URL=http://localhost:3000
    ```
