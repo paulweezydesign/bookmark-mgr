@@ -1,0 +1,19 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="Bookmark Manager">
+  <div id="app"></div>
+  
+  <script>
+    import BookmarkManager from '../components/BookmarkManager.tsx';
+    import { createRoot } from 'react-dom/client';
+    import React from 'react';
+
+    const container = document.getElementById('app');
+    if (container) {
+      const root = createRoot(container);
+      root.render(React.createElement(BookmarkManager));
+    }
+  </script>
+</Layout>
