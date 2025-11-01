@@ -234,3 +234,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Vercel](https://vercel.com/) - Deployment platform
 
+Complete bookmark manager implementation
