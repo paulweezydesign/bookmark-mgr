@@ -1,0 +1,39 @@
+{
+  "name": "bookmark-manager",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build:extension": "node scripts/build-extension.js"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.9",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.0.4",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "astro": "^4.2.8",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "lucide-react": "^0.323.0",
+    "@headlessui/react": "^1.7.18",
+    "fuse.js": "^7.0.0",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.17",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
+}
+
